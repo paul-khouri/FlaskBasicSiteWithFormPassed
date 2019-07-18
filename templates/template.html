@@ -1,0 +1,45 @@
+<!-- start template part-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>
+{% block title %}{% endblock %}
+  </title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Thasadith" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="static/css/l_h_Styles.css">
+</head>
+<body>
+    <nav class="navbar navbar-default">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/"><span class=	"glyphicon glyphicon-home" style="color:#ffffff;"></span></a>
+          </div>
+          <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="/places">PLACES</a></li>
+                <li><a href="/gallery">GALLERY</a></li>
+                <li><a href="/contact">CONTACT</a></li>
+                <li><a href="/contactone">CONTACT_Form</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+   <!--- different content-->
+{%block content %} {% endblock %}
+
+  <footer class="container-fluid bg-4 text-center">
+      <p>Bootstrap Theme Made By <a href="https://www.w3schools.com">www.w3schools.com</a></p>
+    </footer>
+
+</body>
+</html>

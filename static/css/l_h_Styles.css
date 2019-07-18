@@ -1,0 +1,56 @@
+body{
+    font-family: 'Thasadith', sans-serif;
+
+  }
+  .bg-1 {
+    background-color: rgb(4, 66, 82); /* Green */
+    /*background-image: url("images/main_view_big.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;*/
+    color: #ffffff;
+    padding: 0;
+  }
+  .bg-2 {
+    background-color: #474e5d; /* Dark Blue */
+    color: #ffffff;
+
+  }
+  .bg-4{
+    background-color: #474e5d; /* Dark Blue */
+    color: #ffffff;
+    padding: 5%;
+  }
+
+
+  .navbar {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border: 0;
+  border-radius: 0;
+  margin-bottom: 0;
+  font-size: 12px;
+  letter-spacing: 5px;
+  background-color: #474e5d;
+
+}
+.navbar-nav li a:link{
+  color: #ffffff;
+}
+.navbar-nav li a:visited {
+  color: #ffffff;
+}
+
+.navbar-nav li a:hover {
+  color: #1abc9c !important;
+}
+
+.block_adjust{
+  margin-bottom: 10px;
+}
+
+.vh{
+display: block;
+margin:auto;
+margin-top: 24px;
+margin-bottom: 24px;
+}

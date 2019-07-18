@@ -1,0 +1,29 @@
+{% extends "template.html" %}
+
+
+{% block title %}
+Succes Page
+{% endblock %}
+{% block content %}
+<style>
+    table{
+    margin:auto;
+    }
+    table tr{
+    border: 1px solid gray;
+    }
+</style>
+
+<div class="container bg-3 text-center" style="max-width: 800px;">
+    <h3>Thankyou for submitting your valuable information</h3>
+<table >
+{% for x,y in formdata %}
+    <tr><td><h3>{{x}}</h3></td><td><h3>{{y}}</h3></td></tr>
+    {% endfor %}
+    </table>
+
+     <a href="/contactone" class="btn btn-primary" role="button">ReSubmit</a>
+    <a href="/" class="btn btn-primary" role="button">Confirm</a>
+</div>
+
+{% endblock %}
